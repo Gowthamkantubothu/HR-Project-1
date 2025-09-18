@@ -47,8 +47,44 @@ HR-Project-1/
    ```bash
    cd project-1/backend
 
+
 2.Activate virtual environment:
 
-venv\Scripts\activate      # Windows
+    venv\Scripts\activate      # Windows
+  
+    source venv/bin/activate   # macOS/Linux
+  
 
-source venv/bin/activate   # macOS/Linux
+3.Install dependencies:
+
+    pip install -r requirements.txt
+  
+
+4.Configure MySQL database in backend/settings.py.
+
+
+5.Apply migrations:
+  
+    python manage.py makemigrations
+  
+    python manage.py migrate
+
+6.Run the server:
+
+    python manage.py runserver
+
+Frontend (React)
+
+  1.Navigate to frontend folder:
+  
+    cd project-1/frontend
+    
+  2.Install dependencies:
+
+    npm install
+
+3.Run React server:
+
+    npm start
+
+  
