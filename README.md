@@ -22,11 +22,21 @@ The Candidate Management System is a web application to manage candidate details
 HR-Project-1/
 
 ├── backend/
+
 │ ├── cmsProject/ # Django project folder
+
 │ ├── candidates/ # Django app folder
+
 │ ├── manage.py
+
 │ └── env/
+
 └── frontend/
+
 ├── src/
+
 │ ├── components/
+
 │ └── App.js
+
+
