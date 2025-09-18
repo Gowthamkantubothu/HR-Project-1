@@ -40,3 +40,15 @@ HR-Project-1/
 │ └── App.js
 
 
+## Setup Instructions
+
+### Backend (Django)
+1. Navigate to backend folder:
+   ```bash
+   cd project-1/backend
+
+2.Activate virtual environment:
+
+venv\Scripts\activate      # Windows
+
+source venv/bin/activate   # macOS/Linux
